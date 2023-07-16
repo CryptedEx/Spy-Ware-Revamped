@@ -121,7 +121,7 @@ local plr = game.Players.LocalPlayer.Name
 local plrid = game.Players.LocalPlayer.UserId
 if game.PlaceId == 10449761463 then
   print("The Strongest Battlegrounds")
-  loadstring('\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\67\114\121\112\116\101\100\69\120\47\83\112\121\45\87\97\114\101\45\82\101\118\97\109\112\101\100\47\109\97\105\110\47\71\97\109\101\115\47\84\104\101\37\50\48\83\116\114\111\110\103\101\115\116\37\50\48\66\97\116\116\108\101\103\114\111\117\110\100\115\46\108\117\97\34\41\41\40\41')()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CryptedEx/Spy-Ware-Revamped/main/Games/The%20Strongest%20Battlegrounds.lua"))()
 else
   plr:kick("Wrong game dummy.")
   end;
